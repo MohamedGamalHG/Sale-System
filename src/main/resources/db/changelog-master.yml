@@ -1,0 +1,11 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/changelog-client.xml
+  - include:
+      file: db/changelog/changelog-product.xml
+  - include:
+      file: db/changelog/changelog-sale.xml
+  - include:
+      file: db/changelog/changelog-sale-update.xml
+  - include:
+      file: db/changelog/changelog-user.xml
